@@ -22,3 +22,12 @@ git clone https://github.com/YOUR_USERNAME/mini-uptime-monitor.git
 cd mini-uptime-monitor
 pip install -r requirements.txt
 python app.py
+```
+
+Or with Docker
+
+```bash
+docker build -t uptime-monitor .
+docker run -p 5050:5050 uptime-monitor
+
+
