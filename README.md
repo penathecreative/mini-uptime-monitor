@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Or with Docker
+## 🐳 Or with Docker
 
 ```bash
 docker build -t uptime-monitor .
